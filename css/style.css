@@ -1,0 +1,38 @@
+.h1{
+	font-family: sofia;
+	font-size: 20px;
+}
+ #space0, #space1, #space2 {
+    color: rgb(75, 42, 83);
+	padding-left: 30px;
+    text-decoration: none;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+}
+#myCarousel {
+	margin-top: 70px
+}
+/* Landscape phone to Tablet */
+@media (max-width: 768px){
+    #slide{
+        background: url(../photos/photo.jfif) top center no-repeat;
+    }
+}
+#footer {
+    clear: both;
+    border-top: 2px solid #646262;
+    padding-top: 9px;
+    margin-top: 30px
+    }
+.icons, .foot {
+    font-size: 12px;
+    list-style: none;
+        float: right;
+}
+.footertext{
+    color: rgb(22, 21, 21);
+    float: left;
+}
